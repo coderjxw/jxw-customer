@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: jxw-consumer
+  cloud:
+    nacos:
+      discovery:
+        enabled: false
+      config:
+        enabled: false
+    consul:
+      config:
+        enabled: false
+      enabled: false
+server:
+  port: 30001
+

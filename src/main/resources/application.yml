@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    initial-size: 10
+    max-active: 50
+    max-wait: 1000
+    min-idle: 10
+    username: root
+    password: pwd12345
+    url: jdbc:mysql://localhost:3306/jxw?serverTimezone=Asia/Shanghai
+
+  messages:
+    basename: i18n/messages
+
+
